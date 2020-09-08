@@ -65,7 +65,7 @@ class Form extends Component {
 
     let finalDateString = moment(
       `${dateString[0]}/${dateString[1]}/${dateString[2]}`
-    ).format('MM/DD/YYYY')
+    ).format('MM-DD-YYYY')
 
     axios
       .post(API_URL + 'new', {
