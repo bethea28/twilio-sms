@@ -9,3 +9,6 @@
 
 1. Every change on the server requires a restart of the server so changes can take.
 2. Interval prop on the ReactPolling component controls polling frequency.
+
+## 
+https://docs.google.com/document/d/1xwUhatu0Ml_Gg-EGJ-pLhBsAIcMedTpunyVDNVULvWI/edit?usp=sharing
