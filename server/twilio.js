@@ -2,7 +2,6 @@ require('dotenv').config()
 
 // MY TWILIO CredentialS
 const sendSms = (phone, message) => {
-  console.log('SEND SMS', process.env.REACT_APP_NOT_myFromNumber)
   const client = require('twilio')(
     process.env.REACT_APP_NOT_mySid,
     process.env.REACT_APP_NOT_myToken
